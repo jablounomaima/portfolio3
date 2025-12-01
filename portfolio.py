@@ -82,7 +82,7 @@ elif choice == "📊 Réalisations":
     # Projet 2 - PharmaInsight
     st.subheader("💊 PharmaInsight (Streamlit + Python)")
     st.write("""
-    Tableau de bord analytique pour la parapharmacie Pharmavie :
+    Tableau de bord analytique pour la parapharmacie  :( **dataset aléatoire**)
     - Prévisions de ventes
     - Recommandation de produits
     - Détection automatique de ruptures de stock
@@ -90,7 +90,7 @@ elif choice == "📊 Réalisations":
     """)
 
     if st.button("Voir captures - PharmaInsight"):
-        st.image("assets/bi/2.png", caption="Dashboard accueil", use_column_width=True)
+        st.image("assets/bi/image1.png", caption="Dashboard accueil", use_column_width=True)
         st.image("assets/bi/3.png", caption="Graphiques ventes", use_column_width=True)
         st.image("assets/bi/4.png", caption="Graphiques ventes", use_column_width=True)
         st.image("assets/bi/5.png", caption="Graphiques ventes", use_column_width=True)
